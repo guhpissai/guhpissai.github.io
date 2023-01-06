@@ -40,8 +40,13 @@
   padding-top: 20px;
 }
 
-.instagram {
-  padding-right: 180px;
+.introducao-links div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introducao-links img {
+  padding-right: 10px;
 }
 
 .projeto-button {
@@ -70,6 +75,16 @@
     display: flex;
     justify-content: center;
   }
+
+  .projeto-button {
+    padding: 10px 30px;
+  }
+  
+  /* .introducao-links {
+    display: flex;
+    justify-content: center;
+  } */
+
   .introducao img {
     display: none;
   }
