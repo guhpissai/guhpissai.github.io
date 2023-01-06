@@ -66,6 +66,14 @@
     top: 56px;
     left: 156px;
   }
+
+  .projeto-button {
+    padding: 10px 30px;
+  }
+  
+  .introducao ul img {
+    width: 50px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -76,16 +84,7 @@
     justify-content: center;
   }
 
-  .projeto-button {
-    padding: 10px 30px;
-  }
-  
-  /* .introducao-links {
-    display: flex;
-    justify-content: center;
-  } */
-
-  .introducao img {
+  .imagem-perfil {
     display: none;
   }
 }
