@@ -23,11 +23,32 @@
   display: block;
 }
 
+.header .contato {
+  padding: 0 20px;
+  background-color: #141414;
+}
+
+.header .contato a {
+  color: #ffffff;
+}
+
 @media (max-width: 900px) {
   .header {
     flex-direction: column;
     gap: 40px;
     padding: 20px;
+  }
+
+  .header .contato {
+    background-color: #F4F4F4;
+  }
+  
+  .header .contato  {
+    padding: initial;
+  }
+
+  .header .contato a {
+    color: #3d3d3d;
   }
 
   .header a {

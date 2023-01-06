@@ -4,7 +4,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 100px;
+  gap: 210px;
   align-items: center;
 }
 
@@ -28,12 +28,14 @@
   z-index: -1;
 }
 
-.introducao a {
+.introducao p {
   font-size: 1.5rem;
+  line-height: 2.3rem;
   color: #525252;
 }
 
 .introducao-links {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,6 +59,9 @@
 }
 
 @media (max-width: 1320px) {
+  .introducao {
+    gap: 100px;
+  }
   .introducao h1 {
     font-size: 3rem;
   }

@@ -1,7 +1,8 @@
 body {
   font-family: 'Fira Sans',  Arial, sans-serif;
-  margin: 0 auto;
+  margin: 0px;
   color: #525252;
+  margin-bottom: 1000px;
 }
 
 h1, h2 h3, p {
