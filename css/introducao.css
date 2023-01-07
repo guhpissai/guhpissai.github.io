@@ -48,7 +48,7 @@
 }
 
 .introducao-links img {
-  padding-right: 10px;
+  margin-right: 20px;
 }
 
 .projeto-button a {
@@ -77,11 +77,12 @@
   }
 
   .projeto-button {
-    padding: 10px 30px;
+    padding: 10px 0px;
   }
   
   .introducao ul img {
     width: 50px;
+    margin-right: 10px;
   }
 }
 
@@ -92,8 +93,13 @@
     display: flex;
     justify-content: center;
   }
-
   .imagem-perfil {
     display: none;
+  }
+
+  .introducao-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
   }
 }
