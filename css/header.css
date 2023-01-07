@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px 120px;
+  border-bottom: 1px #B5B5B5 solid;
 }
 
 .header-menu {
