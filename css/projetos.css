@@ -32,7 +32,8 @@
   font-size: 3rem;
   font-weight: bold;
   color: #111111;
-  position: relative;
+  position: relative; 
+  z-index: 1;
 }
 
 .projeto-title::before {
@@ -42,9 +43,9 @@
   height: 50px;
   background: url(../exports/cv-detail-03.svg) no-repeat center;
   position:absolute;
+  top: 42px;
   left: 78px;
   z-index: -1;
-  color: #DF632E;
 }
 
 .projetos p {
@@ -103,15 +104,30 @@
 
   .projeto-title {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .projetos .box img {
-    /* margin-right: 50px; */
     width: 40px;
   }
 
   .projetos .box h3 {
     margin: 5px 0;
+  }
+}
+
+@media (max-width: 430px) {
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projeto-title {
+    padding: 40px 0px;
+  }
+
+  .projeto-title::before {
+    left: -42px;
   }
 }
