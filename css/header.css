@@ -10,15 +10,16 @@
 .header-menu {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
   justify-content: center;
+  margin-left: 20px;
 }
 
 .header-menu a {
   font-size: 1.25rem;
   line-height: 1.3;
-  padding: 10px 20px;
+  padding: 10px 30px;
   text-decoration: none;
+  font-weight: bold;
   color: #3D3D3D;
   display: block;
 }
@@ -29,6 +30,7 @@
 }
 
 .header .contato a {
+  padding: 10px 20px;
   color: #ffffff;
 }
 
@@ -54,5 +56,9 @@
   .header a {
     background-color: #F4F4F4;
     border-radius: 2px;
+  }
+
+  .header .header-menu {
+    flex-wrap: wrap;
   }
 }

@@ -17,6 +17,11 @@ ul {
 }
 
 img {
-  max-width: 100%;
   display: block;
+}
+
+@media (max-width: 1000px) {
+  img {
+    max-width: 100%;
+  }
 }

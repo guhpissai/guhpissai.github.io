@@ -51,8 +51,12 @@
   padding-right: 10px;
 }
 
-.projeto-button {
-  padding: 18px 60px;
+.projeto-button a {
+  text-decoration: none;
+  color: #141414;
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding: 18px 50px;
   border-style: solid;
   border-color: #808080;
   border-width: 1px;
