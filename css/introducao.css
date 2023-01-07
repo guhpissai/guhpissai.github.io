@@ -6,6 +6,8 @@
   grid-template-columns: 1fr 2fr;
   gap: 210px;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .introducao h1 {
@@ -42,6 +44,11 @@
   padding-top: 20px;
 }
 
+.introducao-links {
+  display: flex;
+  align-items: flex-end;
+}
+
 .introducao-links div {
   display: flex;
   justify-content: space-between;
@@ -51,12 +58,20 @@
   margin-right: 20px;
 }
 
+.projeto-button img {
+  margin: 0;
+  margin: 0 5px;
+}
+
 .projeto-button a {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
   text-decoration: none;
   color: #141414;
   font-weight: bold;
   font-size: 1.125rem;
-  padding: 18px 50px;
+  padding: 12px 40px;
   border-style: solid;
   border-color: #808080;
   border-width: 1px;
@@ -76,13 +91,13 @@
     left: 156px;
   }
 
-  .projeto-button {
-    padding: 10px 0px;
-  }
-  
-  .introducao ul img {
+  .introducao .icon-container img {
     width: 50px;
-    margin-right: 10px;
+    margin-right: 5px;
+  }
+
+  .introducao .projeto-button a {
+    padding: 5px 20px;
   }
 }
 

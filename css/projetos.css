@@ -21,6 +21,10 @@
   box-shadow: 0 4px 4px 0px hsla(0, 0%, 40%, 0.25);
 }
 
+.projetos .box img {
+  margin-right: 130px;
+}
+
 .projeto-title {
   max-width: 1200px;
   padding: 40px 120px;
@@ -90,5 +94,14 @@
   .projeto-title {
     display: flex;
     justify-content: center;
+  }
+
+  .projetos .box img {
+    /* margin-right: 50px; */
+    width: 40px;
+  }
+
+  .projetos .box h3 {
+    margin: 5px 0;
   }
 }
