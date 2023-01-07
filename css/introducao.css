@@ -1,0 +1,99 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 210px;
+  align-items: center;
+}
+
+.introducao h1 {
+  font-size: 4.75rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  color: #141414;
+  position: relative;
+}
+
+.introducao h1::before {
+  content: "";
+  display: block;
+  width: 290px;
+  height: 100px;
+  background: url('../exports/cv-detail-01.svg') no-repeat center;
+  position: absolute;
+  top: 78px;
+  left: 220px;
+  z-index: -1;
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  color: #525252;
+}
+
+.introducao-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.introducao-links div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introducao-links img {
+  padding-right: 10px;
+}
+
+.projeto-button a {
+  text-decoration: none;
+  color: #141414;
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding: 18px 50px;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 1px;
+}
+
+@media (max-width: 1320px) {
+  .introducao {
+    gap: 100px;
+  }
+  .introducao h1 {
+    font-size: 3rem;
+  }
+  .introducao h1::before {
+    width: 150px;
+    height: 50px;
+    top: 56px;
+    left: 156px;
+  }
+
+  .projeto-button {
+    padding: 10px 30px;
+  }
+  
+  .introducao ul img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagem-perfil {
+    display: none;
+  }
+}
