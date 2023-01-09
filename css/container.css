@@ -41,6 +41,10 @@
   color: #b8b8b8;
 }
 
+.container strong {
+  color: #f5f5f5;
+}
+
 .container .company {
   color: #732900;
   font-weight:bold;
